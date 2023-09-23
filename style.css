@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+    background-color: #ffffff;
+    font-family: Manrope, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.michel {
+    background-color: #2b2c2d;
+    font-size: 24px;
+    font-family: Economica;
+    font-weight: bold;
+    color: #fff;
+    padding: 13px;
+    margin-bottom: 3%;
+}
+  
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #464646;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a3a3a;
+}
